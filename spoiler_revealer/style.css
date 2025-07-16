@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+body {
+    width: 100vh;
+    font-family: sans-serif;
+}
+
+.post {
+    background-color: #eee;
+    padding: 1em;
+    margin: 20px 0;
+    border-radius: 1em;
+    font-size: 20px;
+}
+
+.spoiler {
+    color: #545454;
+    background-color: #545454;
+    transition: 0.4s ease-in;
+}
+
+.spoiler:hover {
+    color: initial;
+    background-color: initial;
+}
